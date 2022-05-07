@@ -1,32 +1,37 @@
 h1{font:"Arial"; text-align:center; color:green; font-weight:normal;}
 h4{font:"Arial"; color:brown;}
-body{background-color:;}
+body{background-color:;
+		text-align:center;}
 .rice{background-color:lime}
 .beans{background-color:orange}
-.advert{background-color:yellow;
-		height:50px;
-		width:700px;
+.advert{background-color:green;
+		color:white;
+		font-size: 30px;
+		height:35px;
 		border:solid 2px;
 		border-radius:10px;
 		text-align:center;
-		border-bottom-color:blue;}
+		border-bottom-color:off-white;}
 		
 		
 .logo{width:300px;height:200px;border-radius:25px;}
-.semovita{padding:50px;
+.semovita{padding:10px;
 		margin:20px;
 		border-radius:30px;
-		height:200px;
-		width:200px;
-		border:solid 5px;
+		height:150px;
+		width:150px;
+		border:solid 3px;
 		border-color:green;}
 .phone_card{padding:10px;
 		margin:20px;
 		border-radius: 100px;
 		height:100px;
 		width:100px;
-		border:solid 5px;
-		border-color:green;}
+		border:solid 3px;
+		border-color:green;
+		transform: rotate(0deg);
+		filter: blur(0px);}
 .eba{height:300px;
 		width:300px;}
-.dodo{border:solid 10px green;}
+.chat_us{border:solid 3px green;
+		border-radius:30px;}
