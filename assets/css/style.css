@@ -1,0 +1,31 @@
+h1{font:"Arial"; text-align:center; color:green; font-weight:normal;}
+h4{font:"Arial"; color:brown;}
+body{background-color:;}
+.rice{background-color:lime}
+.beans{background-color:orange}
+.advert{background-color:yellow;
+		height:50px;
+		width:700px;
+		border:solid 2px;
+		border-radius:10px;
+		text-align:center;
+		border-bottom-color:blue;}
+		
+		
+.logo{width:300px;height:200px;border-radius:25px;}
+.semovita{padding:50px;
+		margin:20px;
+		border-radius:30px;
+		height:200px;
+		width:200px;
+		border:solid 5px;
+		border-color:#4CBB17;}
+.tuwo{padding:50px;
+		margin:20px;
+		border-radius:0 30px 0 30px;
+		height:200px;
+		width:200px;
+		border:solid 5px;
+		border-color:#4CBB17;}
+.eba{height:100px;
+		width:100px;}
