@@ -1,6 +1,7 @@
-h1{font:"Arial"; text-align:center; color:green; font-weight:normal;}
-h4{font:"Arial"; color:brown;}
-body{background-color:;
+
+body{background:linear-gradient( 360deg, #3BB143, #0B6623);
+		color: white;
+		padding: 40px; 40px; 40px; 0;
 		text-align:center;}
 .rice{background-color:lime}
 .beans{background-color:orange}
@@ -14,24 +15,23 @@ body{background-color:;
 		border-bottom-color:off-white;}
 		
 		
-.logo{width:300px;height:200px;border-radius:25px;}
-.semovita{padding:10px;
+.logo{width:150px;height:100px;border-radius:25px;}
+.internet_data{padding:10px;
 		margin:20px;
 		border-radius:30px;
 		height:150px;
 		width:150px;
-		border:solid 3px;
-		border-color:green;}
+		border:solid 2px white;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);}
+		
 .phone_card{padding:10px;
 		margin:20px;
 		border-radius: 100px;
 		height:100px;
 		width:100px;
-		border:solid 3px;
-		border-color:green;
-		transform: rotate(0deg);
-		filter: blur(0px);}
+		border:solid 2px white;
+		transform: rotate(0deg);}
 .eba{height:300px;
 		width:300px;}
-.chat_us{border:solid 3px green;
+.chat_us{border:solid 2px white;
 		border-radius:30px;}
