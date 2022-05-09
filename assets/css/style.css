@@ -1,35 +1,48 @@
 
 body{background:linear-gradient( 360deg, #3BB143, #0B6623);
+		font-family:sans-serif;
 		color: white;
 		text-align:center;}
+		
+		
 
 .rice{background-color:lime}
-.beans{background-color:orange}
-.advert{color:white;
+.internet_data{background-color:orange}
+
+.subheading{border:solid 2px white;
+		border-radius:30px;}
+		
+		
+.huelogo{color:white;
 		border:solid 2px;
 		border-radius:10px;}
 		
 		
-.logo{font-weight: normal;
-		font-style: normal;
-		font-size: 10px;}
+.hue{font-family:sans-serif;
+		font-size:50px;}
+.badaousftcoyr{font-family:sans-serif;}
+
 		
 		
-.internet_data{padding:10px;
+.internet_data, .phone_card{padding:10px;
 		margin:20px;
 		border-radius:30px;
 		height:150px;
 		width:150px;
 		border:solid 2px white;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);}
-		
-.phone_card{padding:10px;
-		margin:20px;
-		border-radius: 100px;
-		height:100px;
-		width:100px;
-		border:solid 2px white;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
 		transform: rotate(0deg);}
+		
+		
+.pcl,.dl{padding:10px;
+		margin:20px;
+		border-radius:30px;
+		height:150px;
+		width:150px;
+		border:solid 2px white;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);}
+		
 .chat_us_link{height:100px;
 		width:100px;}
 .chat_us{border:solid 2px white;
