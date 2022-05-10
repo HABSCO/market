@@ -1,11 +1,15 @@
 
-body{background:#3BB143;
+html, body{background:#3BB143;
 		font-family:sans-serif;
 		color: white;
 		text-align:center;
 		margin:0;
 		width:100vw;
-		height:100vh;}
+		height:100vh;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;}
 		
 div{width:100vw;
 		height:100vh;}
