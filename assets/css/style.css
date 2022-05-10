@@ -1,8 +1,15 @@
 
-body{background:linear-gradient( 360deg, #3BB143, #0B6623);
+body{background:#3BB143;
 		font-family:sans-serif;
 		color: white;
-		text-align:center;}
+		text-align:center;
+		margin:0;
+		width:100vw;
+		height:100vh;}
+		
+div{width:100vw;
+		height:100vh;}
+		
 		
 		
 
@@ -14,36 +21,49 @@ body{background:linear-gradient( 360deg, #3BB143, #0B6623);
 		
 		
 .huelogo{color:white;
-		border:solid 2px;
-		border-radius:10px;}
+		padding: 10px;
+		height:200px;
+		width:300px;
+		border: solid 2px;
+		border-radius:50px;}
 		
 		
 .hue{font-family:sans-serif;
 		font-size:50px;}
 .badaousftcoyr{font-family:sans-serif;}
 
-		
-		
-.internet_data, .phone_card{padding:10px;
-		margin:20px;
+.airtel_data_prices{padding:30px 30px 30px 30px;
+		margin:5px;
 		border-radius:30px;
-		height:150px;
-		width:150px;
+		height:200px;
+		width:200px;
+		text-align:center;
 		border:solid 2px white;
 		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);}
+		transform: rotate(0deg);
+		}
 		
-		
-.pcl,.dl{padding:10px;
+.dl{padding:10px;
 		margin:20px;
 		border-radius:30px;
-		height:150px;
-		width:150px;
+		height:300px;
+		width:300px;
 		border:solid 2px white;
 		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);}
+transform: rotate(0deg);}
+
 		
-.chat_us_link{height:100px;
+.pcl{padding:10px;
+		margin:20px;
+		border-radius:30px;
+		height:200px;
+		width:200px;
+		border:solid 2px white;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+transform: rotate(0deg);}
+
+		
+.whl{height:100px;
 		width:100px;}
 .chat_us{border:solid 2px white;
 		border-radius:30px;}
