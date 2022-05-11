@@ -1,5 +1,9 @@
 
-.huelogo{color:white;
+
+
+
+
+.mylogo{color:white;
 		padding: 50px ;
 		height:100px;
 		width:100px;
@@ -19,22 +23,25 @@ html, body{background:#3BB143;
 		left:0;
 		right:0;}
 		
-div{width:50vw;
-		height:30vh;
+div{
 		margin-left:10px;}
 		
 		
 		
 
 .subheading{border:solid 2px white;
-		border-radius:30px;}
+		background-color:#0B6623;
+		margin-left:200px;
+		margin-right:200px;
+		border-radius:30px;
+		text-align:center;
+		}
 		
 		
 
 		
 .hue{font-family:sans-serif;
 		font-size:50px;}
-.badaousftcoyr{font-family:sans-serif;}
 
 .airtel_data_prices{padding:30px 30px 30px 30px;
 		margin:5px;
@@ -47,29 +54,55 @@ div{width:50vw;
 		transform: rotate(0deg);
 		}
 		
-.dl{padding:10px;
+.NetworkLogo{padding:10px;
 		margin:20px;
 		border-radius:30px;
 		height:300px;
 		width:300px;
 		border:solid 2px white;
 		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-transform: rotate(0deg);}
+		transform: rotate(0deg);
+		margin-bottom:100px;}
 
 		
-.pcl{padding:10px;
-		margin:20px;
-		border-radius:30px;
-		height:200px;
-		width:200px;
-		border:solid 2px white;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-transform: rotate(0deg);}
-
 		
-.whl{height:100px;
+.WhatsappChatLogoLink{height:100px;
 		width:100px;}
-.chat_us{border:solid 2px white;
+.chat_us{margin-top:200px;
 		border-radius:30px;}
+		
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	
