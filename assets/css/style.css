@@ -3,15 +3,13 @@
 
 
 
-.mylogo{color:white;
-		padding: 50px ;
-		height:100px;
-		width:100px;
-		border-radius:100px;}
+.mylogo{padding: 50px;
+		border-radius:100px;
+		margin: 50px 50px 3px 50px;}
 		
 
 
-html, body{background:#3BB143;
+html{background:#3BB143;
 		font-family:sans-serif;
 		color: white;
 		text-align:center;
@@ -22,9 +20,6 @@ html, body{background:#3BB143;
 		bottom:0;
 		left:0;
 		right:0;}
-		
-div{
-		margin-left:10px;}
 		
 		
 		
@@ -37,7 +32,12 @@ div{
 		text-align:center;
 		}
 		
-		
+/*____________________Payment Details Whatsapp Link Style_____(Begins Here)____________________*/
+.Pay_Link{text-decoration: none;
+		color: green;
+		background: transparent;}
+
+/*____________________Payment Details Whatsapp Link Style_____(Begins Here)____________________*/		
 
 		
 .hue{font-family:sans-serif;
