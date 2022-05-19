@@ -14,7 +14,7 @@
 		
 
 
-html,body{background:#3BB143;
+html,body{background:#043927;
 		font-family:sans-serif;
 		color: white;
 		text-align:center;
@@ -38,7 +38,7 @@ html,body{background:#3BB143;
 		}
 		
 /*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
-.Payment_Whatsapp_Link{text-decoration: none;
+.payment-whatsapp-link{text-decoration: none;
 		color: green;
 		background: transparent;}
 /*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
@@ -47,14 +47,14 @@ html,body{background:#3BB143;
 
 
 
-/*____________________Payment Details Whatsapp Link____________________*/
-.Payment_Email_Link{text-decoration: none;
-		color: green;
-		background: transparent;}
+/*____________________Payment Details Email Link____________________*/
+.payment-email-link{text-decoration: none;
+					color: green;
+					background: transparent;}
 
 		
 
-.airtel_data_prices{padding:30px 30px 30px 30px;
+.airtel-data-prices{padding:30px 30px 30px 30px;
 		margin:5px;
 		border-radius:30px;
 		height:200px;
@@ -79,7 +79,7 @@ html,body{background:#3BB143;
 		
 .WhatsappChatLogoLink{height:100px;
 		width:100px;}
-.chat_us{margin-top:200px;
+.chat-us{margin-top:200px;
 		border-radius:30px;}
 		
 		
@@ -98,23 +98,35 @@ text-align: center;
 border: 1px solid black;
 justify-content: center;}
 
-		
+/*____________________Data Price Table____________________*/
+table,th,td{border:1px solid #3BB143;
+			border-collapse:collapse;
+			}
+th,td{padding: 20px;
+	}
+th:hover,td:hover{background-color: #3BB143;
+				border-color: #0B6623;
+				border-radius: 5px;}
+
 		
 		
 /*____________________Home News Contact About____________________*/
-.ul_home_news_contact_about{list-style-type: none;
+.ul-home-news-contact-about{list-style-type: none;
 							margin: 0;
 							padding-top: 0;
 							overflow: hidden;
-							background-color: green;
+							background-color: #3BB143;
 							}
-.li_home_news_contact_about{float: right;}
-.a_home_news_contact_about{display: block;
+.li-home-news-contact-about{float: right;}
+.a-home-news-contact-about{display: block;
 							color: white;
 							text-align: center;
 							padding: 20px;
 							text-decoration: none;
 							background: transparent;
+							}
+.a-home-news-contact-about:hover{background-color: #0B6623;
+							border-radius: 5px;
 							}
 
 
