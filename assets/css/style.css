@@ -3,9 +3,14 @@
 
 
 
-.mylogo{padding: 50px;
-		border-radius:100px;
-		margin: 50px 50px 3px 50px;}
+.mylogo{border-radius:100px;
+		height: 100px;
+		width: 100px;}
+
+
+.hue{font-family:sans-serif;
+		font-size:50px;}
+
 		
 
 
@@ -32,16 +37,23 @@ html{background:#3BB143;
 		text-align:center;
 		}
 		
-/*____________________Payment Details Whatsapp Link Style_____(Begins Here)____________________*/
-.Pay_Link{text-decoration: none;
+/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
+.Payment_Whatsapp_Link{text-decoration: none;
 		color: green;
 		background: transparent;}
+/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
 
-/*____________________Payment Details Whatsapp Link Style_____(Begins Here)____________________*/		
+
+
+
+
+/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
+.Payment_Email_Link{text-decoration: none;
+		color: green;
+		background: transparent;}
+/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/	
 
 		
-.hue{font-family:sans-serif;
-		font-size:50px;}
 
 .airtel_data_prices{padding:30px 30px 30px 30px;
 		margin:5px;
@@ -82,11 +94,32 @@ text-align:justify;}
 		
 		
 		
+.table{padding-top: 5px;
+text-align: center;
+border: 1px solid black;
+justify-content: center;}
+
 		
 		
 		
-		
-		
+/*____________________Style Home News Contact About____________________*/
+.style_ul_home_news_contact_about{list-style-type: none;
+						margin: o;
+						padding-top: 0;
+						overflow: hidden;
+						background-color: green;}
+
+.style_li_home_news_contact_about{float: right;}
+
+.style_a_home_news_contact_about{display: block;
+								color: white;
+								text-align: center;
+								padding: 16px;
+								text-decoration: none;
+								background: transparent;}
+
+
+								
 		
 		
 		
