@@ -14,7 +14,7 @@
 		
 
 
-html{background:#3BB143;
+html,body{background:#3BB143;
 		font-family:sans-serif;
 		color: white;
 		text-align:center;
@@ -47,11 +47,10 @@ html{background:#3BB143;
 
 
 
-/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
+/*____________________Payment Details Whatsapp Link____________________*/
 .Payment_Email_Link{text-decoration: none;
 		color: green;
 		background: transparent;}
-/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/	
 
 		
 
@@ -102,24 +101,24 @@ justify-content: center;}
 		
 		
 		
-/*____________________Style Home News Contact About____________________*/
-.style_ul_home_news_contact_about{list-style-type: none;
-						margin: o;
-						padding-top: 0;
-						overflow: hidden;
-						background-color: green;}
+/*____________________Home News Contact About____________________*/
+.ul_home_news_contact_about{list-style-type: none;
+							margin: 0;
+							padding-top: 0;
+							overflow: hidden;
+							background-color: green;
+							}
+.li_home_news_contact_about{float: right;}
+.a_home_news_contact_about{display: block;
+							color: white;
+							text-align: center;
+							padding: 20px;
+							text-decoration: none;
+							background: transparent;
+							}
 
-.style_li_home_news_contact_about{float: right;}
-
-.style_a_home_news_contact_about{display: block;
-								color: white;
-								text-align: center;
-								padding: 16px;
-								text-decoration: none;
-								background: transparent;}
 
 
-								
 		
 		
 		
