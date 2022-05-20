@@ -98,16 +98,21 @@ text-align: center;
 border: 1px solid black;
 justify-content: center;}
 
-/*____________________Data Price Table____________________*/
-table,th,td{border:1px solid #3BB143;
+/*____________________Data Price Table____________________
+Table = abc1
+tr = abc2
+th = abc3
+td = abc4
+/*__________________________________________________*/
+.abc1,.abc2,.abc4{border:1px solid #3BB143;
 			border-collapse:collapse;
 			}
-th,td{padding: 20px;
+.abc1{background-color: #043927;}
+.abc3,.abc4{padding: 20px;
 	}
-th:hover,td:hover{background-color: #3BB143;
+.abc3:hover,.abc4:hover{background-color: #3BB143;
 				border-color: #0B6623;
 				border-radius: 5px;}
-
 		
 		
 /*____________________Home News Contact About____________________*/
@@ -125,15 +130,24 @@ th:hover,td:hover{background-color: #3BB143;
 							text-decoration: none;
 							background: transparent;
 							}
-.a-home-news-contact-about:hover{background-color: #0B6623;
+.a-home-news-contact-about:hover{background-color: #043927;
 							border-radius: 5px;
 							}
 
 
 
-		
-		
-		
+
+
+/*____________________ Style(C)____________________
+Table = c1
+tr = c2
+td = c3
+div = c4
+/*__________________________________________________*/
+.c1{width: 100%; border: none;}
+.c3{border: none;}
+.c3,.c4{padding: 20px;}
+.c4{display: block;}
 		
 		
 		
