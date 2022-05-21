@@ -21,50 +21,56 @@ h2{font-family:verdana; font-size:100%;}
 
 
   <!--------------------Body Section-------------------->
- <body style="width: 100%">
+ <body>
+
+
  <img  class="mylogo" src="assets/images/logo.png" title="Company Logo - www.habsco.com.ng" alt="Company Logo - www.habsco.com.ng">
 <h1 class="hue" title="Company Name">HABSCO UNIVERSAL ENTERPRISES</h1>
-<h2>Buy affordable Data and other utility services from the comfort of your room</h2>
-<p style="font-family:courier;font-size:160%;text-align:center;"><b>Buy Now!</b></p>
-<h2 id="ball1" class="subheading">Airtel Data</h2>
-<h4>
-<pre style="color:blue;font-size:20px;font-family:verdana;">
-Welcome!
-
-Click the Airtel <sup>icon</sup> <sub>below</sub> <q>to buy Airtel Data @ N400 per GB</q>
-
-<blockquote>If you are a resseller, chat us for reseller price!</blockquote>
-</pre>
-<a href="Payment Details.html" target="_top"><img class="NetworkLogo" src="assets/images/airtel_logo.png" alt="Airtel Logo"></a>
-</h4>
 
 
-<h2 class="ball2" class="subheading">MTN Data</h2>
-<h4>Welcome!<br><br>Click the MTN icon below to buy MTN Data @ N300 per GB
-<br>
-<a href="PaymentDetails.html"><img class="NetworkLogo" src="assets/images/mtn_logo.jpg" alt="MTN Logo"></a>
-</h4>
 
 
-<h2 class="Entrol_For_Trainings">Enrol For Trainings</h2>
+
+
+<!--____________________Java Script____________________-->
+
+<h1 id="myGreetings">Welcome!</h1>
+<button onclick="displayResult()">Click here to see an amazing offer</button>
+
+<script>
+function displayResult() {document.getElementById("myGreetings").innerHTML="The first 1,000 people that buy Airtel Data Via our website will get N20 discount on each gb they purchased"}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h1 class="eft">Enrol For Trainings</h1>
 <ul>
 <li>POS Trainings</li>
 <li>Recharge Card Printing Trainings</li>
 <li>Internet Data Vending Trainings</li>
 </ul>
-</body>
 
 
 
 
 
-<table class="abc1" style="width: 100%">
-	<caption><h1>Our Data Price List</h1></caption>
+<table class="abc1">
+	<caption class="codpl"><h1>Our Data Price List</h1></caption>
 	<tr class="abc2">
 		<th class="abc3">Networks</th><th class="abc3">Data Quoata</th><th class="abc3">Amount</th>
 	</tr>
 	<tr class="abc2">
-		<td class="abc4" rowspan="5">MTN</td><td class="abc4">1GB</td><td class="abc4">N300</td>
+		<td class="abc4" rowspan="5"><a href="payment-details.html"><img class="mtnlsrc" src="assets/images/mtn_logo.jpg" alt="MTN Logo"></a><br>MTN</td><td class="abc4">1GB</td><td class="abc4">N300</td>
 		
 	<tr class="abc2">
 		<td class="abc4">2GB</td><td class="abc4">N600</td>
@@ -83,7 +89,7 @@ Click the Airtel <sup>icon</sup> <sub>below</sub> <q>to buy Airtel Data @ N400 p
 		<td class="abc4">GLO</td><td class="abc4">1GB</td><td class="abc4">N500</td>
 	</tr>
 	<tr class="abc2">
-		<td class="abc4" rowspan="5">Airtel</td><td class="abc4">1GB</td><td class="abc4">N400</td>
+		<td class="abc4" rowspan="5"><a href="payment-details.html" target="_blank"><img class="atlsrc" src="assets/images/airtel_logo.png" alt="Airtel Logo"></a><br>Airtel</td><td class="abc4">1GB</td><td class="abc4">N400</td>
 	</tr>
 	<tr class="abc2">
 		<td class="abc4">2GB</td><td class="abc4">N800</td>
@@ -113,7 +119,7 @@ Click the Airtel <sup>icon</sup> <sub>below</sub> <q>to buy Airtel Data @ N400 p
 		<td class="abc4">5GB</td><td class="abc4">N2,000</td>
 	</tr>
 </table>
-
+</body>
 
 
 
@@ -130,13 +136,14 @@ Click the Airtel <sup>icon</sup> <sub>below</sub> <q>to buy Airtel Data @ N400 p
 
 <!--____________________Footer Section____________________-->
 <footer>
-<ul class="ul-home-news-contact-about">
-	<li class="li-home-news-contact-about"><a class="a-home-news-contact-about" href="#home">Home</a></li>
-	<li class="li-home-news-contact-about"><a class="a-home-news-contact-about" href="#news">News</a></li>
-	<li class="li-home-news-contact-about"><a class="a-home-news-contact-about" href="#contact">Contact</a></li>
-	<li class="li-home-news-contact-about"><a class="a-home-news-contact-about" href="#about">About</a></li>
+<span class="hncaspan">
+<ul class="hncaul">
+	<li class="hnacli"><a class="hnaca" href="#home">Home</a></li>
+	<li class="hnacli"><a class="hnaca" href="#news">News</a></li>
+	<li class="hnacli"><a class="hnaca" href="#contact">Contact</a></li>
+	<li class="hnacli"><a class="hnaca" href="#about">About</a></li>
 </ul>
-
+</span>
 
 
 
@@ -153,6 +160,13 @@ Click the Airtel <sup>icon</sup> <sub>below</sub> <q>to buy Airtel Data @ N400 p
 	<tr class="c2">
 		<td class="c3"><address>No 50, Behind Wisdom of God School, Gbagede, Amoyo, Ilorin., Kwara State. Nigeria.</address></td><td class="c3">Chat us on Whatsapp for support and more enquiries.<a href="https://wa.me/+2348135684330"><img style="height: 20px;width: 20px;" src="assets/images/whatsapp.png" alt="Whatsapp Chat Link"></a></td>
 	</tr>
+</table>
+
+
+
+
+<table>
+	<hr>
 	<tr>
 		<td class="c3" colspan="2">&copy;2022&middot;Technological Innovations By Habsco Universal Enterprises</td>
 	</tr>

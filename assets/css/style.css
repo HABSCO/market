@@ -12,7 +12,7 @@
 		font-size:50px;}
 
 		
-
+body{width: 100%;}
 
 html,body{background:#043927;
 		font-family:sans-serif;
@@ -29,13 +29,7 @@ html,body{background:#043927;
 		
 		
 
-.subheading{border:solid 2px white;
-		background-color:#0B6623;
-		margin-left:20px;
-		margin-right:20px;
-		border-radius:30px;
-		text-align:center;
-		}
+
 		
 /*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
 .payment-whatsapp-link{text-decoration: none;
@@ -54,26 +48,9 @@ html,body{background:#043927;
 
 		
 
-.airtel-data-prices{padding:30px 30px 30px 30px;
-		margin:5px;
-		border-radius:30px;
-		height:200px;
-		width:200px;
-		text-align:center;
-		border:solid 2px white;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);
-		}
+
 		
-.NetworkLogo{padding:10px;
-		margin:20px;
-		border-radius:30px;
-		height:200px;
-		width:200px;
-		border:solid 2px white;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);
-		margin-bottom:100px;}
+
 
 		
 		
@@ -85,10 +62,6 @@ html,body{background:#043927;
 		
 		
 	
-ol{margin-left:100px;
-margin-right:100px;
-text-align:justify;}
-		
 		
 		
 		
@@ -98,55 +71,111 @@ text-align: center;
 border: 1px solid black;
 justify-content: center;}
 
-/*____________________Data Price Table____________________
-Table = abc1
-tr = abc2
-th = abc3
-td = abc4
-/*__________________________________________________*/
-.abc1,.abc2,.abc4{border:1px solid #3BB143;
-			border-collapse:collapse;
-			}
-.abc1{background-color: #043927;}
-.abc3,.abc4{padding: 20px;
+
+
+
+/*____________________Style Enrol For Training___________________
+h1=eft,
+______________________________________________________________*/
+.eft{background-color: #3BB143;
+	border-radius: 50px;
+	padding: 25px;
+	text-align: center;
 	}
+
+
+
+
+/*______________________________Our Data Price List (Table Style)____________________
+table=abc1,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnaca,caption=codpl
+/*_____________________________________________________________________________________________*/
+.codpl{background-color:#3BB143;
+	border-radius: 50px;
+	margin-top: 50px;
+	margin-bottom: 25px;}
+.abc1{background-color: #043927;
+	width: 100%;
+	border-collapse:collapse;
+	}
+.abc2,.abc3,.abc4{border:2px solid #3BB143;
+				padding: 25px;
+				font-size: 25px;
+				}
 .abc3:hover,.abc4:hover{background-color: #3BB143;
 				border-color: #0B6623;
-				border-radius: 5px;}
+				border-radius: 5px;
+				}
+
+
+
+/*____________________Airtel logo Inside Data Table____________________*/
+.atlsrc{padding:30px;
+		border-radius:50px;
+		height:100px;
+		width:100px;
+		text-align:center;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
+		height:100px;
+		}
+
+/*____________________MTN logo Inside Data Table____________________*/
+.mtnlsrc{padding:30px;
+		border-radius:50px;
+		width:100px;
+		text-align:center;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
+		}
+
+
+
+
+
+
+
 		
 		
-/*____________________Home News Contact About____________________*/
-.ul-home-news-contact-about{list-style-type: none;
-							margin: 0;
-							padding-top: 0;
-							overflow: hidden;
-							background-color: #3BB143;
-							}
-.li-home-news-contact-about{float: right;}
-.a-home-news-contact-about{display: block;
-							color: white;
-							text-align: center;
-							padding: 20px;
-							text-decoration: none;
-							background: transparent;
-							}
-.a-home-news-contact-about:hover{background-color: #043927;
-							border-radius: 5px;
-							}
+/*____________________Home News Contact About______________________________
+ul=hncaul,li=hnacli,span=hncaspan,green=#3BB143,sacramento=#043927,a=hnaca,
+__________________________________________________________________________*/
+.hncaul{list-style-type: none;
+		margin: 0;
+		padding-top: 0;
+		overflow: hidden;
+		background-color: #3BB143;
+		}
+.hncaspan{padding: 50px;}
+.hnacli{float: right;}
+.hnaca{display: block;
+		color: white;
+		text-align: center;
+		padding: 20px;
+		text-decoration: none;
+		background: transparent;
+		}
+.hnaca:hover{background-color: #043927;
+			border-radius: 5px;
+
+
+
+
+			}
 
 
 
 
 
 /*____________________ Style(C)____________________
-Table = c1
-tr = c2
-td = c3
-div = c4
-/*__________________________________________________*/
+table=c1,tr=c2,td=c3,div=c4
+__________________________________________________*/
+.c1,.c3{padding: 50px;}
 .c1{width: 100%; border: none;}
-.c3{border: none;}
-.c3,.c4{padding: 20px;}
+.c3{border: none;padding: 20px;}
+
+
+
+
 .c4{display: block;}
 		
 		
