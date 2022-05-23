@@ -69,42 +69,61 @@ green=#3BB143,sacramento=#043927,
 .efth1{background-color: #3BB143;
 	border-radius: 50px;
 	padding: 25px;
-	margin: 25px;
 	}
 .eftul{padding: 25px;
-	margin: 25px;
 	text-align: left;
 	list-style-type: disc;
 	font-size: 25px;
 	}
 .eftli{padding: 25px;
-	;
 	}
 
 
 
 
 /*______________________________Our Data Price List____________________________________________
-table=odpltable,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnaca,caption=odplcaption
+table=odpltable,tr = odpltr,th = odplth,td = odpltd,green=#3BB143,sacramento=#043927,a=hnaca,caption=odplcaption
 /*_____________________________________________________________________________________________*/
 .odpltable{background-color: #043927;
 		width: 100%;
 		border-collapse:collapse;
-		margin:25px;
 		padding: 25px;
 		}
 .odplcaption{background-color:#3BB143;
 			border-radius: 50px;
-			margin-bottom: 25px;
+			margin-top: 50px;
+			margin-bottom: 15px;
 			}
-.abc2,.abc3,.abc4{border:2px solid #3BB143;
+.odplth,.odpltr,.odpltd{border:2px solid #3BB143;
 				padding: 25px;
 				font-size: 25px;
 				}
-.abc3:hover,.abc4:hover{background-color: #3BB143;
-				border-color: #0B6623;
-				border-radius: 5px;
+.odplth:hover,.odpltd:hover{background-color: #3BB143;
+							border-radius: 5px;
+							}
+
+
+/*______________________________Our Cable TV Subscriptions Price List____________________________________________
+table=octvspltable,tr = octvspltr,th = octvsplth,td = octvspltd,green=#3BB143,sacramento=#043927,a=hnaca,caption=octvsplcaption
+/*______________________________________________________________________________________________________________*/
+.octvspltable{background-color: #043927;
+			width: 100%;
+			border-collapse: collapse;
+			padding: 25px;
+			}
+.octvsplcaption{background-color:#3BB143;
+			border-radius: 50px;
+			margin-bottom: 15px;
+			margin-top: 50px;
+			}
+.octvsplth,.octvspltr,.octvspltd{border:2px solid #3BB143;
+				padding: 25px;
+				font-size: 25px;
 				}
+.octvsplth:hover,.octvspltd:hover{background-color: #3BB143;
+							border-radius: 5px;
+							}
+
 
 
 
@@ -142,6 +161,19 @@ _____________________________________________________________________*/
 
 
 
+/*____________________GOtv logo Inside Cable Table__________________
+green=#3BB143,sacramento=#043927
+_____________________________________________________________________*/
+.gtvlgsrc{border-radius: 25px;
+		height: 100px;
+		width: 100px;
+		}
+.dstvlgsrc{border-radius: 25px;
+		height: 100px;
+		width: 100px;}
+
+
+
 
 
 		
@@ -153,25 +185,23 @@ __________________________________________________________________________*/
 		overflow: hidden;
 		background-color: #3BB143;
 		border-radius: 50px;
-		padding: 25px;
-		margin: 25px;
+		margin-top: 50px;
 		}
 
 .hnacli{float: right;
 		}
 
-.hnaca{
+.hnaca{display: block;
 		color: white;
 		text-align: center;
-		padding: 25px;
-		margin: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		border-radius: 50px;
 		text-decoration: none;
-		background: transparent;
 		}
 .hnaca:hover{background-color: #043927;
-			border-radius: 50px;
-			padding:25px;
-			margin: 25px;
+			
+			
 			}
 
 
@@ -183,12 +213,7 @@ __________________________________________________________________________*/
 
 /*____________________ Style(C)____________________
 __________________________________________________*/
-.copy{display: block;
-	padding: 25px;
-	margin: 25px;
-	}
-
-
+.copy{}
 
 		
 		
