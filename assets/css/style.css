@@ -35,8 +35,6 @@ html,body{background:#043927;
 .payment-whatsapp-link{text-decoration: none;
 		color: green;
 		background: transparent;}
-/*_____Payment Details Whatsapp Link Style_____(Begins Here)_____*/
-
 
 
 
@@ -62,41 +60,43 @@ html,body{background:#043927;
 		
 		
 	
-		
-		
-		
-		
-.table{padding-top: 5px;
-text-align: center;
-border: 1px solid black;
-justify-content: center;}
 
 
 
-
-/*____________________Style Enrol For Training___________________
-h1=eft,
-______________________________________________________________*/
-.eft{background-color: #3BB143;
+/*_______________________________Enrol For Trainings___________________________________________
+green=#3BB143,sacramento=#043927,
+/*_____________________________________________________________________________________________*/
+.efth1{background-color: #3BB143;
 	border-radius: 50px;
 	padding: 25px;
-	text-align: center;
+	margin: 25px;
+	}
+.eftul{padding: 25px;
+	margin: 25px;
+	text-align: left;
+	list-style-type: disc;
+	font-size: 25px;
+	}
+.eftli{padding: 25px;
+	;
 	}
 
 
 
 
-/*______________________________Our Data Price List (Table Style)____________________
-table=abc1,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnaca,caption=codpl
+/*______________________________Our Data Price List____________________________________________
+table=odpltable,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnaca,caption=odplcaption
 /*_____________________________________________________________________________________________*/
-.codpl{background-color:#3BB143;
-	border-radius: 50px;
-	margin-top: 50px;
-	margin-bottom: 25px;}
-.abc1{background-color: #043927;
-	width: 100%;
-	border-collapse:collapse;
-	}
+.odpltable{background-color: #043927;
+		width: 100%;
+		border-collapse:collapse;
+		margin:25px;
+		padding: 25px;
+		}
+.odplcaption{background-color:#3BB143;
+			border-radius: 50px;
+			margin-bottom: 25px;
+			}
 .abc2,.abc3,.abc4{border:2px solid #3BB143;
 				padding: 25px;
 				font-size: 25px;
@@ -109,7 +109,7 @@ table=abc1,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnac
 
 
 /*____________________Airtel logo Inside Data Table____________________*/
-.atlsrc{padding:30px;
+.atlsrc{padding:25px;
 		border-radius:50px;
 		height:100px;
 		width:100px;
@@ -120,15 +120,25 @@ table=abc1,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnac
 		}
 
 /*____________________MTN logo Inside Data Table____________________*/
-.mtnlsrc{padding:30px;
+.mtnlsrc{padding:25px;
 		border-radius:50px;
+		height: 100px;
 		width:100px;
 		text-align:center;
 		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
 		transform: rotate(0deg);
 		}
 
-
+/*____________________GLO logo Inside Data Table__________________
+green=#3BB143,sacramento=#043927
+_____________________________________________________________________*/
+.glolsrc{padding:0px;
+		border-radius:100px;
+		height: 100px;
+		width:100px;
+		text-align:center;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);}
 
 
 
@@ -137,53 +147,49 @@ table=abc1,tr = abc2,th = abc3,td = abc4,green=#3BB143,sacramento=#043927,a=hnac
 		
 		
 /*____________________Home News Contact About______________________________
-ul=hncaul,li=hnacli,span=hncaspan,green=#3BB143,sacramento=#043927,a=hnaca,
+ul=hncaul,li=hnacli,green=#3BB143,sacramento=#043927,a=hnaca,
 __________________________________________________________________________*/
-.hncaul{list-style-type: none;
-		margin: 0;
-		padding-top: 0;
+.hnacul{list-style-type: none;
 		overflow: hidden;
 		background-color: #3BB143;
+		border-radius: 50px;
+		padding: 25px;
+		margin: 25px;
 		}
-.hncaspan{padding: 50px;}
-.hnacli{float: right;}
-.hnaca{display: block;
+
+.hnacli{float: right;
+		}
+
+.hnaca{
 		color: white;
 		text-align: center;
-		padding: 20px;
+		padding: 25px;
+		margin: 25px;
 		text-decoration: none;
 		background: transparent;
 		}
 .hnaca:hover{background-color: #043927;
-			border-radius: 5px;
-
-
-
-
+			border-radius: 50px;
+			padding:25px;
+			margin: 25px;
 			}
 
+
+
+/*__________________Address Whatsapp____________________*/
 
 
 
 
 /*____________________ Style(C)____________________
-table=c1,tr=c2,td=c3,div=c4
 __________________________________________________*/
-.c1,.c3{padding: 50px;}
-.c1{width: 100%; border: none;}
-.c3{border: none;padding: 20px;}
+.copy{display: block;
+	padding: 25px;
+	margin: 25px;
+	}
 
 
 
-
-.c4{display: block;}
-		
-		
-		
-		
-		
-		
-		
 		
 		
 		
