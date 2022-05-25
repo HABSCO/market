@@ -78,60 +78,61 @@ header{background-color:#3BB143;
 		
 	
 
+section::after{content: "";
+			display: table;
+			clear: both;
+			}
 
-
-/*________________Enrol For Trainings & Utility Bill Payments______________________________
+/*___________________________________________Enrol For Trainings_____________________________
 green=#3BB143,sacramento=#043927,
 /*_____________________________________________________________________________________________*/
-*{box-sizing: border-box;}
-nav1{float: left;
-	width: 40%;
+
+layout-eft{display: inline-flex;
+	width: auto;
 	height: auto;
 	padding: auto;
-	margin: 5%;
+	margin: auto;
 	background:#3BB143;
 	border-radius: 25px;
 	}
-nav2{float: left;
-	width: 40%;
-	height: auto;
-	padding: auto;
-	margin: 5%;
-	background:#3BB143;
-	border-radius: 25px;
+.eftul{padding: 25px;
 	}
-.efth1{background-color: #043927;
-	border-radius: 25px;
-	padding: 25px;
-	margin-right: 35px;
-	text-align: center;
-	list-style-type: none;
-	}
-.eftul .eftli{padding: 25px;
+.eftli{list-style-type: none;
+	padding: 20px;
 	text-align: left;
-	list-style-type: none;
-	font-size: 25px;
+	font-size: 20px;
 	}
-@media(max-width: 600px){nav1,nav2{width: 100%;
-									height: auto;
-									}
-									}
-
-
-
-/*______________________________________________Our Data Price List____________________________________________
-table=odpltable,tr = odpltr,th = odplth,td = odpltd,green=#3BB143,sacramento=#043927,a=hnaca,caption=odplcaption
+/*__________________________________________Utility Bill Payments______________________________
+green=#3BB143,sacramento=#043927,
 /*_____________________________________________________________________________________________*/
+
+layout-ubp{display: inline-flex;
+	width:auto;
+	height: auto;
+	padding: auto;
+	margin: auto;
+	background:#3BB143;
+	border-radius: 25px;
+	}
+.ubpul{padding: 25px;
+	}
+.ubpli{list-style-type: none;
+	padding: 20px;
+	text-align: left;
+	font-size: 20px;
+	}
+/*__________________________________@Media Enrol for Trainnings & Utility Bill Payments________________________________________*/
+
+
+
+/*______________________________________________Our Data Price List________________________________________________________________________
+table=odpltable,tr = odpltr,th = odplth,td = odpltd,green=#3BB143,sacramento=#043927,a=hnaca,caption=odplcaption
+/*_______________________________________________________________________________________________________________________________________*/
 
 .odpltable{background-color: #043927;
 		border-collapse:collapse;
 		padding: 25px;
 		}
-.odplcaption{background-color:#3BB143;
-			border-radius: 25px;
-			margin-top: 50px;
-			margin-bottom: 15px;
-			}
 .odplth,.odpltr,.odpltd{border:2px solid #3BB143;
 				padding: 25px;
 				font-size: 25px;
@@ -139,6 +140,50 @@ table=odpltable,tr = odpltr,th = odplth,td = odpltd,green=#3BB143,sacramento=#04
 .odplth:hover,.odpltd:hover{background-color: #3BB143;
 							border-radius: 5px;
 							}
+layout-our-data-price-list{display: inline-flex;
+				width: auto;%;
+				height: auto;
+				padding: auto;
+				margin: auto;
+				background:#3BB143;
+				border-radius: 25px;
+				}
+/*_______________________________Logo Inside Our Data Price List____________________________*/
+.logo-inside-our-data-price-list{height:50px;
+		width:50px;
+		border-radius:50px;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
+		float: left;
+		}
+/*____________________Airtel logo Inside Data Table____________________*/
+.airtel-logo-inside-data-table{height:50px;
+		width:50px;
+		border-radius:50px;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
+		}
+
+/*____________________MTN logo Inside Data Table____________________*/
+.mtn-logo-inside-data-table{height:50px;
+		width:50px;
+		padding:25px;
+		border-radius:50px;
+		text-align:center;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
+		}
+
+/*____________________GLO logo Inside Data Table__________________
+green=#3BB143,sacramento=#043927
+_____________________________________________________________________*/
+.glo-logo-inside-data-table{height:50px;
+		width:50px;
+		border-radius:100px;
+		text-align:center;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);}
+
 
 
 /*______________________________Our Cable TV Subscriptions Price List____________________________________________
@@ -148,11 +193,6 @@ table=octvspltable,tr = octvspltr,th = octvsplth,td = octvspltd,green=#3BB143,sa
 			border-collapse: collapse;
 			padding: 25px;
 			}
-.octvsplcaption{background-color:#3BB143;
-			border-radius: 25px;
-			margin-bottom: 15px;
-			margin-top: 50px;
-			}
 .octvsplth,.octvspltr,.octvspltd{border:2px solid #3BB143;
 				padding: 25px;
 				font-size: 25px;
@@ -160,94 +200,35 @@ table=octvspltable,tr = octvspltr,th = octvsplth,td = octvspltd,green=#3BB143,sa
 .octvsplth:hover,.octvspltd:hover{background-color: #3BB143;
 							border-radius: 5px;
 							}
-/*___________________Nav of Our Data Price Lis____&_____ Our Table Price List__________________________
-green=#3BB143,sacramento=#043927,
-/*_____________________________________________________________________________________________________*/
+layout-our-cable-tv-subscription-price-list{display: inline-flex;
+				width: auto;%;
+				height: auto;
+				padding: auto;
+				margin: auto;
+				background:#3BB143;
+				border-radius: 25px;
+				}
 
-*{box-sizing: border-box;}
-nav3{float: left;
-	width: 40%;
-	height: auto;
-	padding: auto;
-	margin: 5%;
-	background:#3BB143;
-	border-radius: 25px;
-	}
-nav4{float: left;
-	width: 40%;
-	height: auto;
-	padding: auto;
-	margin: 5%;
-	background:#3BB143;
-	border-radius: 25px;
-	}
-.efth1{background-color: #043927;
-	border-radius: 25px;
-	padding: 25px;
-	margin-right: 35px;
-	text-align: center;
-	list-style-type: none;
-	}
-.eftul .eftli{padding: 25px;
-	text-align: left;
-	list-style-type: none;
-	font-size: 25px;
-	}
-@media(max-width: 600px){nav3,nav4{width: 100%;
-									height: auto;
-									}
-									}
-
-
-
-
-
-
-
-/*____________________Airtel logo Inside Data Table____________________*/
-.atlsrc{padding:25px;
-		border-radius:50px;
-		height:100px;
-		width:100px;
-		text-align:center;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);
-		height:100px;
-		}
-
-/*____________________MTN logo Inside Data Table____________________*/
-.mtnlsrc{padding:25px;
-		border-radius:50px;
-		height: 100px;
-		width:100px;
-		text-align:center;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);
-		}
-
-/*____________________GLO logo Inside Data Table__________________
-green=#3BB143,sacramento=#043927
-_____________________________________________________________________*/
-.glolsrc{padding:0px;
-		border-radius:100px;
-		height: 100px;
-		width:100px;
-		text-align:center;
-		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
-		transform: rotate(0deg);}
 
 
 
 /*____________________GOtv logo Inside Cable Table__________________
 green=#3BB143,sacramento=#043927
 _____________________________________________________________________*/
-.gtvlgsrc{border-radius: 25px;
-		height: 100px;
-		width: 100px;
+.gotv-logo-inside-cable-table{height:50px;
+		width:50px;
+		border-radius: 50px;
+		filter: brightness(100%) saturate(100%) opacity(100%) contrast(100%) blur(0px);
+		transform: rotate(0deg);
 		}
-.dstvlgsrc{border-radius: 25px;
-		height: 100px;
-		width: 100px;}
+
+/*____________________DStv logo Inside Cable Table__________________
+green=#3BB143,sacramento=#043927
+_____________________________________________________________________*/
+.dstv-logo-inside-cable-table{height:50px;
+		width:50px;
+		border-radius: 50px;
+		}
 
 
 
