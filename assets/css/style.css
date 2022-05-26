@@ -179,8 +179,10 @@ header{
 
 
 /*_______________________________contact address, email address, whatsapp, sms, call____________________*/
-.cewscdiv{background-color: #043927;
-	padding: 25px;
+.cewscdiv{padding: 20px;
+	background-color: #043927;
+	display: inline-flex;
+	width: 100%;
 	margin-top: 50px;
 	}
 .cewsctable,.cewscth,.cewsctd{
