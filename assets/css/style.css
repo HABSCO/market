@@ -9,7 +9,7 @@
 
 /*__________________________________________Body_________________________________________*/	
 body{
-	background:#a9ba9d;
+	background:#3BB143;
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
 	}
@@ -18,7 +18,7 @@ body{
 
 /*________________________________________Header_______________________________________*/
 header{
-	background-color:#3BB143;
+	background-color:#043927;
 	padding:30px;
 	text-align: center;
 	font-size: 35px;
@@ -99,13 +99,13 @@ header{
 
 
 /*______________________________________________________________________________Our Data Price List______________________________________________________________*/
-.odpldiv{padding: 400px;
-	background-color: #043927;
-	}
 .odpltable,.odplth,.odpltd{
 	border:1px solid #3BB143;
 	border-collapse:collapse;
 	}
+.odpltable{
+	margin: 100px;
+}
 .odplth,.odpltd{
 	padding: 25px;
 	text-align: center;
@@ -127,13 +127,13 @@ header{
 
 
 /*_____________________________________________________________________Our Cable TV Subscriptions Price List_________________________________________________*/
-.octvspldiv{padding: 400px;
-	background-color: #043927;
-	margin: 25px;
-	}
 .octvspltable,.octvsplth,.octvspltd{
 	border:1px solid #3BB143;
+	border-collapse: collapse;
 	}
+.octvspltable{
+	margin: 100px;
+}
 .octvsplth, .octvspltd{
 	padding: 25px;
 	text-align: center;
@@ -151,6 +151,14 @@ header{
 	height:50px;
 	width:50px;
 	border-radius: 50px;
+	}
+
+
+/*__________________________________________________div data & cable_____________________________*/
+.dacdiv{padding: 20px;
+	background-color: #043927;
+	display: inline-flex;
+	width: 100%;
 	}
 
 		
@@ -173,8 +181,10 @@ header{
 
 
 /*______________________________________________footer_________________________________________________________________*/
-footer{
-	background-color: white;
+.footerdiv{
+	background-color: #043927;
 	padding: 10px;
 	text-align: center;
+	font-size: 15px:;
+	margin-top: 50px;
 	}
