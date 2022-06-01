@@ -1,0 +1,243 @@
+
+
+
+
+
+
+
+
+
+/*__________________________________________Body_________________________________________*/	
+body{
+	background:#3BB143;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	}
+
+
+
+/*________________________________________Header_______________________________________*/
+header{
+	background-color:#043927;
+	padding:30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	}
+		
+		
+
+/*________________________________________Main Logo_____________________________________*/
+.mylogo{
+	border-radius:100px;
+	height: 100px;
+	width: 100px;
+	}
+
+		
+
+
+
+
+
+
+
+/*________________________________Payment Details Whatsapp Link Style________________________*/
+.payment-whatsapp-link{
+	text-decoration: none;
+	color: green;
+	background: transparent;
+	}
+
+
+/*__________________________________Payment Details Email Link_______________________________*/
+.payment-email-link{
+	text-decoration: none;
+	color: green;
+	background: transparent;
+	}
+
+		
+
+
+		
+
+
+		
+		
+.WhatsappChatLogoLink{height:100px;		width:100px;}
+.chat-us{margin-top:200px;
+		border-radius:30px;}
+		
+		
+		
+	
+
+
+
+/*___________________________________________Enrol For Trainings_____________________________*/
+.eftul{
+	list-style-type: none; 
+	}
+.eftli{
+	padding: 10px;
+	font-size: 25px;
+	}
+
+/*__________________________________________Utility Bill Payments______________________________*/
+.ubpul{
+	list-style-type: none;
+	}
+.ubpli{
+	padding: 10px;
+	font-size: 25px;
+	}
+
+
+
+
+
+/*______________________________________________________________________________Our Data Price List______________________________________________________________*/
+.odpldiv
+	{padding: 25px;
+	background-color: #043927;
+	margin-top: 50px;
+	}
+.odpltable,.odplth,.odpltd{
+	border:1px solid #3BB143;
+	border-collapse:collapse;
+	}
+.odpltable{
+	width: 100%;
+}
+.odplth{
+	color: #3BB143;
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+}
+.odpltd{
+	font-size: 20px;
+	padding: 25px;
+	text-align: center;
+}
+.odpltd:hover{
+	background-color: #3BB143;
+	}
+
+/*____ airtel, mtn, glo logo____*/
+.logo-inside-data-table,
+.airtel-logo-inside-data-table, 
+.mtn-logo-inside-data-table, 
+.glo-logo-inside-data-table{
+	height:50px;
+	width:50px;
+	border-radius:50px;
+	}
+
+/*_____________________________________________________________________Our Cable TV Subscriptions Price List_________________________________________________*/
+.octvspltable,.octvsplth,.octvspltd{
+	border:1px solid #3BB143;
+	border-collapse: collapse;
+	}
+.octvspltable{
+	width: 100%;
+}
+.octvsplth{color: #3BB143;
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+}
+.octvspltd{
+	font-size: 20px;
+	padding: 25px;
+	text-align: center;
+}
+.octvspltd:hover{
+	background-color: #3BB143;
+	}
+/*____gotv, dstv, logo______*/
+.logo-inside-cable-table,
+.gotv-logo-inside-cable-table,
+.dstv-logo-inside-cable-table{
+	height:50px;
+	width:50px;
+	border-radius: 50px;
+	}
+.octvspldiv{padding: 25px;
+	background-color: #043927;
+	margin-top: 50px;
+}
+
+		
+/*___________________________________________________________________________home news about contacts______________________________________________________________*/
+.hnacul{
+	list-style-type: none;
+	background-color: #3BB143;
+	}
+.hnacli{
+	padding: 10px;
+	}
+.hnaca{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	}
+.hnaca:hover{
+	background-color: #043927;		
+	}
+
+
+/*_______________________________contact address, email address, whatsapp, sms, call____________________*/
+.cewscdiv{padding: 25px;
+	background-color: #043927;
+	margin-top: 500px;
+	}
+.cewsctable,.cewscth,.cewsctd{
+	border:1px solid #3BB143
+	border-collapse: collapse;
+}
+.cewsctable{
+	width: 100%;
+}
+.cewscth{
+	color: #3BB143;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 25px;
+}
+.cewsctd{
+	padding-bottom: 100px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: center;
+	font-size: 20px;
+}
+.cewscw-whatsapp-link{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
