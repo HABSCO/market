@@ -45,11 +45,13 @@ grid-area: main;
 background-color:hsl(120 80% 15%);
 display: grid;
 justify-content: center;
+          padding: 5rem;
 }
 
 footer{
 grid-area:footer;
 background-color:hsl(120 80% 10%);
+          padding: 5rem;
 }
 footer>div>span{
 color: lime;
