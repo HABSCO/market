@@ -1,61 +1,106 @@
 *{
+    box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    box-sizing: border-box;
+    background: linear-gradient(whit);
+    color:green;
 }
 body{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: "header header"
+                        "nav main"
+                        "footer footer";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    background: linear-gradient(lightgreen,white,green);
+    padding: 1rem;
+    margin: auto;
 }
-form{
-    background: linear-gradient(lightgreen,white,green);
-    width: 300px;
-    height: 600px;
-    padding: 75px 50px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+header{grid-area:header;
+    background: green;
 }
-h1{
+.header-name{
+    color: white;
+}
+
+header>div>img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    animation: habsco 0.9s linear infinite;
+    
+}
+@keyframes habsco {
+  to { transform: rotate(360deg); }
+}
+
+.set-header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 50px;
-    color: green;
+    flex-direction: column;
 }
-.textboxdiv{
-    border-bottom: 2px solid green;
-    position: relative;
-    margin: 35px 0;
+nav{grid-area:nav;
+    background: lightgreen
 }
-.textboxdiv input{
-    background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    color: green;
-    height: 40px;
-    font-size: 20px;
+main{grid-area:main;
+    background: lightgreen;
 }
-.loginbtn{
-    height: 45px;
-    width: 100%;
-    border: none;
-    outline: none;
-    background: linear-gradient(lightgreen,white,green);
-    background-size: 200%;
-    transition: 0.5s;
-    color: green;
-    font-size: 20px;
+main>div>p::first-letter{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 0.8;
+    float: inline-start;
 }
-.loginbtn:hover{
-    background-position: right;
-    font-size: 15px;
+footer{grid-area:footer;
+    background: lightgreen;
+    }
+.contact-details{
+    border-radius: 1rem;
+    background: white;
+    padding: 1rem;
+    margin:1rem;
+    border: 0.1rem solid green
 }
-.signup{
-    color: green;
+.contact-head{
     text-align: center;
-    padding-top: 30px;
+    border-bottom: 0.1rem solid green;
+    padding: 
+    
+}
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    gap:1rem;
+    padding: 1rem;
+    
+}
+.contact-item{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 1;
+    background: lightgreen;
+    border-radius: 1rem;
+}
+
+.contact-name{
+    color: green;
+    padding: 1rem;
+    text-decoration: underline;
+}
+.contact-value{
+    padding: 1rem;
+    color: green;
+}
+header,nav,main,footer{
+    border: 0.1rem solid hsla(120,100%,50%,0.1);
+    border-radius: 1rem;
+    padding: 1rem;
 }
