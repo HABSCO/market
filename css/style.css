@@ -50,12 +50,7 @@ nav{grid-area:nav;
 main{grid-area:main;
     background: lightgreen;
 }
-main>div>p::first-letter{
-    font-size: 5rem;
-    font-weight: bold;
-    line-height: 0.8;
-    float: inline-start;
-}
+
 footer{grid-area:footer;
     background: lightgreen;
     }
@@ -69,7 +64,6 @@ footer{grid-area:footer;
 .contact-head{
     text-align: center;
     border-bottom: 0.1rem solid green;
-    padding: 
     
 }
 .contact-container{
@@ -84,7 +78,7 @@ footer{grid-area:footer;
 }
 .contact-item{
     flex-grow: 1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis: 1;
     background: lightgreen;
     border-radius: 1rem;
