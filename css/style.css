@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    background: linear-gradient(whit);
-    color:green;
 }
 body{
     display: grid;
@@ -13,88 +11,97 @@ body{
     grid-template-areas: "header header"
                         "nav main"
                         "footer footer";
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto;
     grid-template-rows: auto 1fr auto;
-    min-height: 100vh;
     padding: 1rem;
     margin: auto;
 }
 header{grid-area:header;
-    background: green;
-}
-.header-name{
-    color: white;
+    background: hsla(120,100%,25%,0.1);
+    padding: 2rem;
+    border-radius: 2rem
 }
 
 header>div>img{
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    animation: habsco 0.9s linear infinite;
-    
 }
-@keyframes habsco {
-  to { transform: rotate(360deg); }
+.header-name{
+    color: hsla(120,100%,25%,1)
 }
 
 .set-header{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    background: hsla(120,100%,25%,0.1);
+    border-radius: 2rem;
+    padding: 2rem;
 }
 nav{grid-area:nav;
-    background: lightgreen
 }
 main{grid-area:main;
-    background: lightgreen;
+}
+span{
+    color: hsla(120,100%,25%,1);
 }
 
 footer{grid-area:footer;
-    background: lightgreen;
+    border-radius: 2rem;
+    background: hsla(120,100%,25%,0.1);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    gap: 2rem;
     }
-.contact-details{
-    border-radius: 1rem;
-    background: white;
-    padding: 1rem;
-    margin:1rem;
-    border: 0.1rem solid green
+.all-cards-container-and-heading-container{
+    border-radius: 2rem;
+    background: hsla(120,100%,25%,0.1);
+    padding: 2rem;
 }
-.contact-head{
+.all-contact-cards-heading-container{
     text-align: center;
-    border-bottom: 0.1rem solid green;
-    
+    padding: 2rem;
+    color: green;
 }
-.contact-container{
+.all-contact-cards-container{
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content: center;
     text-align: center;
-    gap:1rem;
-    padding: 1rem;
-    
-}
-.contact-item{
-    flex-grow: 1;
-    flex-shrink: 1;
-    flex-basis: 1;
-    background: lightgreen;
-    border-radius: 1rem;
+    gap:2rem;
+    padding: 2rem;
 }
 
-.contact-name{
-    color: green;
-    padding: 1rem;
-    text-decoration: underline;
+.contact-card-name-and-value-container{
+    flex: 0 0 20rem;
+    border-radius: 2rem;
+    height: 20rem;
+    align-content: center;
+    overflow-X:auto;
+    background: hsla(120,100%,25%,0.1);
 }
-.contact-value{
-    padding: 1rem;
-    color: green;
+.designer-name{
+    padding: 2rem;
+    background-color: hsla(120,100%,25%,0.1);
+    border-radius: 2rem;
+    justify-items: center;
 }
-header,nav,main,footer{
-    border: 0.1rem solid hsla(120,100%,50%,0.1);
-    border-radius: 1rem;
-    padding: 1rem;
+
+.contact-card-name{
+    padding: 2rem;
+    color: hsla(120,100%,25%,1);
+}
+.contact-card-value{
+    padding: 2rem;
+}
+nav,main{
+    background: hsla(120,100%,25%,0.1);
+    border-radius: 2rem;
+    padding: 2rem;
 }
