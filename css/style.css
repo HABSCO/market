@@ -28,7 +28,11 @@ header>div>img{
     border-radius: 50%;
 }
 .header-name{
-    color: hsla(120,100%,25%,1)
+    color: hsla(120,100%,25%,1);
+}
+.header-name-slogan{
+    color: hsla(120,100%,10%,1);
+        
 }
 
 .set-header{
@@ -45,7 +49,7 @@ nav{grid-area:nav;
 }
 main{grid-area:main;
 }
-.main-essay-container{
+.services-name-value-container-container{
     background:hsla(120,100%,25%,0.1);
     padding: 2rem;
     border-radius: 2rem;
@@ -55,16 +59,21 @@ main{grid-area:main;
     align-items: center;
     justify-content: center;
 }
-.main-essay{
+.services-name-value-container{
     background-color: hsla(120,100%,25%,0.1);
     padding: 2rem;
     border-radius: 2rem;
-    flex:0 0 48%;
+    flex:0 0 20rem;
     height: 50rem;
     align-content: center;
     font-weight: 200;
     font-size: larger;
-    
+}
+.services-name{
+    color:hsla(120,100%,25%,1);
+}
+.services-value{
+    color: hsla(120,100%,10%,1);
 }
 span{
     color: hsla(120,100%,25%,1);
@@ -121,7 +130,7 @@ footer{grid-area:footer;
 .contact-card-value{
     padding: 2rem;
 }
-nav,main{
+main{
     background: hsla(120,100%,25%,0.1);
     border-radius: 2rem;
     padding: 2rem;
