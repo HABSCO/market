@@ -23,15 +23,15 @@ header{grid-area:header;
 }
 
 header>div>img{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
 }
 .header-name{
     color: hsla(120,100%,25%,1);
 }
 .header-name-slogan{
-    color: hsla(120,100%,10%,1);
+    color: hsla(120,100%,13%,1);
         
 }
 
@@ -49,10 +49,13 @@ nav{grid-area:nav;
 }
 main{grid-area:main;
 }
+.services-heading{
+    text-align: center;
+    
+}
 .services-name-value-container-container{
-    background:hsla(120,100%,25%,0.1);
+    
     padding: 2rem;
-    border-radius: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap:2rem;
@@ -70,11 +73,20 @@ main{grid-area:main;
     font-weight: 200;
     font-size: larger;
 }
+.services-name-value-heading-container{
+    background:hsla(120,100%,25%,0.1);
+    border-radius: 2rem;
+    padding: 2rem
+}
+.services-heading{
+    color: hsla(120,100%,25%,1)
+}
+
 .services-name{
     color:hsla(120,100%,25%,1);
 }
 .services-value{
-    color: hsla(120,100%,10%,1);
+    color: hsla(120,100%,13%,1);
 }
 span{
     color: hsla(120,100%,25%,1);
@@ -123,6 +135,7 @@ footer{grid-area:footer;
     background-color: hsla(120,100%,25%,0.1);
     border-radius: 2rem;
     justify-items: center;
+    color: hsla(120,100%,13%,1);
 }
 
 .contact-card-name{
@@ -131,6 +144,7 @@ footer{grid-area:footer;
 }
 .contact-card-value{
     padding: 2rem;
+    color: hsla(120,100%,13%,1);
 }
 main{
     background: hsla(120,100%,25%,0.1);
