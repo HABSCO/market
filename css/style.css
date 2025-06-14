@@ -58,6 +58,7 @@ main{grid-area:main;
     gap:2rem;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 .services-name-value-container{
     background-color: hsla(120,100%,25%,0.1);
@@ -92,6 +93,7 @@ footer{grid-area:footer;
     border-radius: 2rem;
     background: hsla(120,100%,25%,0.1);
     padding: 2rem;
+    width: 100%;
 }
 .all-contact-cards-heading-container{
     text-align: center;
