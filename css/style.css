@@ -11,7 +11,7 @@ body{
     grid-template-areas: "header header"
                         "nav main"
                         "footer footer";
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
     padding: 1rem;
     margin: auto;
@@ -44,6 +44,27 @@ header>div>img{
 nav{grid-area:nav;
 }
 main{grid-area:main;
+}
+.main-essay-container{
+    background:hsla(120,100%,25%,0.1);
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    align-items: center;
+    justify-content: center;
+}
+.main-essay{
+    background-color: hsla(120,100%,25%,0.1);
+    padding: 2rem;
+    border-radius: 2rem;
+    flex:0 0 48%;
+    height: 50rem;
+    align-content: center;
+    font-weight: 200;
+    font-size: larger;
+    
 }
 span{
     color: hsla(120,100%,25%,1);
