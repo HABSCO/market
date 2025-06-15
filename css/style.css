@@ -70,9 +70,10 @@ main{grid-area:main;
     align-content: center;
     font-weight: 200;
     font-size: larger;
+    box-shadow: 0 0 1rem hsla(120,100%,13%,1);
 }
 .services-name-value-heading-container{
-    background:hsla(120,100%,25%,0.1);
+    background:hsla(120,100%,100%,0.8);
     border-radius: 2rem;
     padding: 2rem
 }
@@ -101,7 +102,7 @@ footer{grid-area:footer;
     }
 .all-cards-container-and-heading-container{
     border-radius: 2rem;
-    background: hsla(120,100%,25%,0.1);
+    background: hsla(120,100%,100%,0.8);
     padding: 2rem;
     width: 100%;
 }
@@ -127,6 +128,7 @@ footer{grid-area:footer;
     align-content: center;
     overflow-X:auto;
     background: hsla(120,100%,25%,0.1);
+    border: 0.1rem solid hsla(120,100%,100%,0.1)
 }
 .designer-name{
     padding: 2rem;
