@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-size: clamp(1rem,1.5vh,2rem);
 }
 body{
     display: grid;
@@ -13,8 +14,6 @@ body{
                         "footer";
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto;
-    padding: 1rem;
-    margin: auto;
 }
 header{grid-area:header;
     background: hsla(120,100%,25%,0.1);
