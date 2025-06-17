@@ -151,7 +151,7 @@ footer{grid-area:footer;
     border-radius: 2rem;
     justify-items: center;
     color: hsla(120,100%,13%,1);
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
 }
 
 .contact-card-name{
@@ -169,8 +169,36 @@ main{
 }
 .task-bar-container{
     background:hsla(120,100%,100%,0.8);
-    height: 6rem;
+    height: 5rem;
     width: 100%;
     position: fixed;
     bottom:0;
+    
+}
+.task-bar-items-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 2rem;
+    padding-top: 0.8rem;
+    
+    
+}
+.task-bar-items{
+    border: 0.1rem solid hsla(120,100%,25%,0.1);
+    padding: 1rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-content: center;
+    color: hsla(120,100%,25%,1);
+}
+.task-bar-items:hover{
+    color:hsla(120,100%,100%,0.8);
+    background: hsla(120,100%,25%,1);
+}
+a:link{
+    color: hsla(120,100%,25%,1);
+}
+a:hover{
+    color:hsla(120,100%,100%,0.8);
 }
