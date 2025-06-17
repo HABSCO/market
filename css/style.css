@@ -13,6 +13,9 @@ body{
                         "footer";
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto;
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
 }
 header{grid-area:header;
     background: hsla(120,100%,25%,0.1);
@@ -59,7 +62,6 @@ main{grid-area:main;
     gap:2rem;
     align-items: center;
     justify-content: center;
-    width: 100%;
 }
 .services-name-value-container{
     background-color: hsla(120,100%,25%,0.1);
@@ -78,7 +80,8 @@ main{grid-area:main;
 .services-name-value-heading-container{
     background:hsla(120,100%,100%,0.8);
     border-radius: 2rem;
-    padding: 2rem
+    padding: 2rem;
+    box-sizing: border-box;
 }
 .services-heading{
     color: hsla(120,100%,25%,1)
@@ -99,7 +102,6 @@ footer{grid-area:footer;
     background: hsla(120,100%,25%,0.1);
     padding: 2rem;
     display: flex;
-    flex-wrap: nowrap;
     flex-direction:column;
     gap: 2rem;
     }
@@ -112,6 +114,26 @@ footer{grid-area:footer;
 .all-contact-cards-heading-container{
     text-align: center;
     padding: 2rem;
+    
+    
+    
+    <div class="services-name-value-container">
+                        <div>
+                            <h2 class="services-name">Business Email</h2>
+                        </div>
+                        <div>
+                            <p class="services-value"><span>Design yorur business
+                                email from us,</span> and stay professional. Your company
+                                will be easily recognised among the crowd. Rather than
+                                using ordinary email. The email adresss will carry your
+                                domain. for example "customercare@habsco.com.ng". Very
+                                professional.
+                            </p>
+                        </div> 
+                        <div>
+                            <p></p>
+                        </div>
+                    </div>
     color: green;
 }
 .all-contact-cards-container{
@@ -129,7 +151,6 @@ footer{grid-area:footer;
     border-radius: 2rem;
     height: 20rem;
     align-content: center;
-    overflow-X:auto;
     background: hsla(120,100%,25%,0.1);
     border: 0.1rem solid hsla(120,100%,100%,0.1);
 }
@@ -164,7 +185,7 @@ main{
     width: 100%;
     position: fixed;
     bottom:0;
-    
+    margin: o;
 }
 .task-bar-items-container{
     display: flex;
@@ -172,6 +193,7 @@ main{
     justify-content:space-around;
     gap: 2rem;
     padding-top: 0.8rem;
+    flex-direction: row;
     
     
 }
