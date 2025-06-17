@@ -13,9 +13,6 @@ body{
                         "footer";
     grid-template-columns: auto;
     grid-template-rows: auto 1fr auto;
-    margin: auto;
-    padding: auto;
-    overflow-x: auto;
 }
 header{grid-area:header;
     background: hsla(120,100%,25%,0.1);
@@ -63,12 +60,6 @@ main{grid-area:main;
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-video{
-    height: 20rem;
-    width: 100%;
-    border-radius: 2rem;
-    overflow: hidden;
 }
 .services-name-value-container{
     background-color: hsla(120,100%,25%,0.1);
