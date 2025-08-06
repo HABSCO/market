@@ -6,7 +6,7 @@ header{grid-area:header;background:hsla(120,0%,0%,1);padding:2rem;border-radius:
 .set-header{display:flex;gap:2rem;align-items:center;text-align:center;flex-direction:column;background:hsla(120,0%,50%,0.2);border-radius:2rem;padding:2rem}
 .services-heading{text-align:center}
 .services-name-value-container-container{padding-top: 2rem;display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center}
-.services-name-value-container{background:black;padding:2rem;border:0.2rem solid green; border-radius:2rem;flex:0 0 20rem;height:50rem;align-content:center;font-weight:normal;font-size:larger}
+.services-name-value-container{background:linear-gradient(green,black);padding:2rem;border:0.2rem solid green; border-radius:2rem;flex:0 0 20rem;height:50rem;align-content:center;font-weight:normal;font-size:larger}
 .services-name-value-container:hover{box-shadow:0 0 2rem hsla(120,100%,13%,1)}
 .services-name-value-heading-container{background:hsla(120,0%,50%,0.2);border-radius:2rem;padding:2rem}
 .services-heading{color:hsla(120,100%,25%,1)}
@@ -26,6 +26,6 @@ main{grid-area:main;background:hsla(120,0%,0%,1);border-radius:2rem;padding:2rem
 .task-bar>.container>.item{background:hsla(120,0%,50%,0.2);border-radius:2em;padding:1em;justify-content:center;align-content:center;color:hsla(120,100%,100%,1)}
 .task-bar>.container>.item:hover{color:hsla(120,100%,50%,1);background:hsla(120,100%,20%,1);box-shadow:0 0 1.5em hsla(120,100%,20%,1)}
 .task-bar>.container{display:flex;align-items:center;justify-content:space-around;gap:1.5em;padding-top:1em;flex-direction:row}
-.task-bar{font-size:1.25rem;background:hsla(120,0%,0%,1);height:5em;width:100%;position:fixed;bottom:0;border-radius: 1.5em 1.5em 0 0}
+.task-bar{font-size:1rem;background:hsla(120,0%,0%,1);height:5em;width:100%;position:fixed;bottom:0;border-radius: 1.5em 1.5em 0 0}
 a:link{color:hsla(120,100%,100%,1)}
 a:hover{color:hsla(120,100%,50%,1)}
