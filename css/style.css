@@ -1,29 +1,28 @@
-*{box-sizing:border-box;border-radius:2rem;background:#fff;font-family:system-ui, -apple-system, BlinkMacSystemFont,
+*{box-sizing:border-box;border-radius:2rem;background:#fff;text-align:center;font-family:system-ui, -apple-system, BlinkMacSystemFont,
              "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;color:#111;margin:0;padding:0;text-decoration:none;max-width:100%;word-break:break-word}
 body{display:grid;gap:10px;grid-template-areas:"header""main""footer";grid-template-columns:auto;grid-template-rows:auto auto auto}
 header{grid-area:header;padding:2rem}
 .header-name{color:#28a745}
-.header-name-slogan{color:#fff}
-.set-header{display:flex;gap:2rem;align-items:center;text-align:center;flex-direction:column;padding:2rem; border:1px solid #e0e0e0}
-.services-heading{text-align:center}
-.services-name-value-container-container{padding-top: 2rem;display:flex;flex-wrap:wrap;gap:2rem;align-items:center;justify-content:center}
-.services-name-value-container{padding:2rem;border:1px solid #e0e0e0; flex:0 0 20rem;height:50rem;align-content:center;font-weight:normal;font-size:larger}
-.services-name-value-heading-container{padding:2rem;border:1px solid #e0e0e0}
-.services-heading{color:#28a745}
-.services-name{padding-bottom:2rem}
-.services-value{padding: 0.1rem}
+.set-header{display:flex;gap:2rem;align-items:center;flex-direction:column;padding:2rem; border:1px solid #e0e0e0}
+
+.our-services{padding:1rem;border:1px solid #e0e0e0}
+.our-services>.heading{color:#28a745;padding:1rem}
+.our-services>.container{display:flex;flex-wrap:wrap;gap:1rem;align-items:stretch;justify-content: center}
+.our-services>.container>.card{padding:1rem;border:1px solid #e0e0e0; flex:0 0 25rem}
+.our-services>.container>.card>h2{color:#28a745;padding-bottom:1rem;text-align:left}
+.our-services>.container>.card>p{padding: 0.1rem;text-align:left}
 footer{grid-area:footer;padding:2rem;display:flex;flex-direction:column;gap:2rem}
 .all-cards-container-and-heading-container{padding:2rem;border:1px solid #e0e0e0;}
-.all-contact-cards-heading-container{text-align:center;padding:2rem;color:#28a745}
-.all-contact-cards-container{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:2rem;padding:2rem}
-.contact-card-name-and-value-container{flex:0 0 20rem;height:20rem;align-content:center;border:1px solid #e0e0e0}
-.designer-name{border:1px solid #e0e0e0;padding:2rem;justify-items:center;color:hsla(120,100%,13%,1);margin-bottom:6rem}
-.contact-card-name{padding:2rem;color:#28a745}
-.contact-card-value{padding:2rem}
-main{grid-area:main;padding:2rem}
-.task-bar>.container>.item{padding:1em;justify-content:center;align-content:center;border:1px solid #e0e0e0}
+.all-contact-cards-heading-container{text-align:center;padding:1rem;color:#28a745}
+.all-contact-cards-container{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:1rem;padding:1rem}
+.contact-card-name-and-value-container{flex:0 0 20rem;align-content:center;border:1px solid #e0e0e0}
+.designer-name{background:#28a745;padding:2rem;color:#fff;margin-bottom:6rem}
+.contact-card-name{padding:1rem;color:#28a745}
+.contact-card-value{padding:1rem}
+main{grid-area:main;padding:1rem}
+.task-bar>.container>.item{padding:1em;border:1px solid #e0e0e0; flex:0 0 7rem}
 .task-bar>.container>.item:hover{background-color:#28a745;color:#fff}
-.task-bar>.container{display:flex;align-items:center;justify-content:space-around;gap:1.5em;padding-top:1em;flex-direction:row}
+.task-bar>.container{display:flex;justify-content:space-around;gap:1.5em;padding-top:1em}
 .task-bar{height:5em;width:100%;position:fixed;bottom:0;border:1px solid #e0e0e0}
-a:link{color:#111;background-color: transparent}
+a:link{color:#111;background-color:transparent}
 a:hover{color:#fff}
