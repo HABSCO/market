@@ -16,7 +16,7 @@ footer{grid-area:footer;padding:2rem;display:flex;flex-direction:column;gap:2rem
 .all-contact-cards-heading-container{text-align:center;padding:1rem;color:#28a745}
 .all-contact-cards-container{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:1rem;padding:1rem}
 .contact-card-name-and-value-container{flex:0 0 20rem;align-content:center;border:1px solid #e0e0e0}
-.designer-name{background:#28a745;padding:2rem;color:#fff;margin-bottom:6rem}
+.designer-name{border:1px solid #e0e0e0;padding:2rem;color:#111;margin-bottom:6rem}
 .contact-card-name{padding:1rem;color:#28a745}
 .contact-card-value{padding:1rem}
 main{grid-area:main;padding:1rem}
