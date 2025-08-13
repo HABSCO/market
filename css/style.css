@@ -1,0 +1,27 @@
+*{box-sizing:border-box;border-radius:2rem;background:#fff;text-align:center;font-family:system-ui, -apple-system, BlinkMacSystemFont,
+             "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;color:#111;margin:0;padding:0;text-decoration:none;max-width:100%;word-break:break-word}
+body{display:grid;gap:10px;grid-template-areas:"header""main""footer";grid-template-columns:auto;grid-template-rows:auto auto auto}
+header{grid-area:header}
+main{grid-area:main}
+header .container{align-items:center;padding:1rem;margin:1rem;border:1px solid #e0e0e0}
+header h2{color:#28a745}
+.services{margin:1rem;padding:1rem;border:1px solid #e0e0e0}
+.services h1{color:#28a745;padding:1rem}
+.services .container{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
+.services .card{padding:1rem;border:1px solid #e0e0e0;aspect-ratio:1/1;max-width:23.4375rem}
+.services h2{color:#28a745;padding-bottom:1rem;text-align:left}
+.services p{padding: 0.1rem;text-align:left}
+footer{grid-area:footer}
+.contact{padding:1rem;border:1px solid #e0e0e0;margin:1rem}
+.contact h2{text-align:center;color:#28a745}
+.contact .container{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;gap:1rem}
+.contact .card{width:100%;max-width:23.4375rem;align-content:center;border:1px solid #e0e0e0;aspect-ratio:1/0.5}
+.designer-name{border:1px solid #e0e0e0;padding:1rem;color:#111;margin:1rem;margin-bottom: 6rem}
+.contact h3{color:#28a745}
+.contact p{padding:1rem}
+.task-bar .item{padding:1em;border:1px solid #e0e0e0; flex:0 0 7rem}
+.task-bar .item:hover{background-color:#28a745;color:#fff}
+.task-bar .container{display:flex;justify-content:space-around;gap:2rem;padding-top:1rem}
+.task-bar{height:5em;width:100%;position:fixed;bottom:0;border:1px solid #e0e0e0}
+a:link{color:#111;background-color:transparent}
+a:hover{color:#fff}
