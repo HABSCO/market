@@ -4,8 +4,6 @@ disallow: /downloads/
 user-agent: magicsearchbot
 disallow: /uploads/
 
-Accept-Encoding: gzip, deflate, br
-
 user-agent: ClaudeBot
 disallow: /uploads/
 
