@@ -1,0 +1,12 @@
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+# Add other user agents as needed
+
+User-agent: *
+Disallow:
+
+Sitemap: https://habsco.com.ng/sitemap.xml
