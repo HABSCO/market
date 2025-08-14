@@ -1,6 +1,6 @@
 User-agent: ClaudeBot
 Disallow: /
-
+Accept-Encoding: gzip, deflate, br
 User-agent: GPTBot
 Disallow: /
 
