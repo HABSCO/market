@@ -1,12 +1,16 @@
-User-agent: ClaudeBot
-Disallow: /
+user-agent: *
+disallow: /downloads/
+
+user-agent: magicsearchbot
+disallow: /uploads/
+
 Accept-Encoding: gzip, deflate, br
-User-agent: GPTBot
-Disallow: /
 
-# Add other user agents as needed
+user-agent: ClaudeBot
+disallow: /uploads/
 
-User-agent: *
-Disallow:
+user-agent: GPTBot
+disallow: /uploads/
+
 
 Sitemap: https://habsco.com.ng/sitemap.xml
