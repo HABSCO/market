@@ -1,8 +1,8 @@
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
+Disallow: /index.html/
+Disallow: /css/
 
 User-agent: Googlebot
-Disallow: /nogooglebot/
+Allow: /
 
 Sitemap: https://habsco.com.ng/sitemap.xml
