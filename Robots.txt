@@ -1,8 +1,5 @@
-User-agent: *
-Disallow: /index.html/
-Disallow: /css/
+user-agent: *
+disallow: /downloads/
 
-User-agent: Googlebot
-Allow: /
-
-Sitemap: https://habsco.com.ng/sitemap.xml
+user-agent: magicsearchbot
+disallow: /uploads/
