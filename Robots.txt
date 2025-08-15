@@ -1,17 +1,8 @@
-user-agent: *
-disallow: /downloads/
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
 
 User-agent: Googlebot
 Disallow: /nogooglebot/
-
-user-agent: magicsearchbot
-disallow: /uploads/
-
-user-agent: ClaudeBot
-disallow: /uploads/
-
-user-agent: GPTBot
-disallow: /uploads/
-
 
 Sitemap: https://habsco.com.ng/sitemap.xml
