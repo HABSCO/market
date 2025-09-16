@@ -1,0 +1,10 @@
+# Apply rules to all crawlers
+User-agent: *
+# Block server/system files
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /admin/
+
+# Point search engines to your sitemap (important for SEO)
+Sitemap: https://habsco.com.ng/sitemap.xml
