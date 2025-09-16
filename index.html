@@ -5,7 +5,10 @@
         <meta name="description" content="E-commerce platform where you can buy Pos Purchase, Businesss Connect, Art & Craft, Web design, Business Email">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>E-Commerce - Habsco Universal Enterprises</title>
-        <link  rel="stylesheet" href="css/style.css">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+        <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="css/style.css"></noscript>
     </head>
     <body>
         <header>

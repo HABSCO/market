@@ -4,7 +4,7 @@ header{grid-area:header}
 main{grid-area:main}
 header .container{padding:1rem;margin:1rem;border:1px solid#ccc}
 .services{margin:1rem;padding:1rem;border:1px solid#ccc}
-.services .tag{border:1px solid#ccc;aspect-ratio:1/1;width:100%;max-width:5rem;align-content:center;margin: 0 auto}
+.services .tag{border:1px solid#ccc;aspect-ratio:1/1;width:100%;max-width:5rem;align-content:center;margin:auto}
 .services h1{padding:1rem}
 .services .container{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center}
 .services .card{padding:1rem;border:1px solid #ccc;aspect-ratio:1/1;max-width:23.4375rem;align-content:center}
