@@ -1,10 +1,20 @@
 # Apply rules to all crawlers
 User-agent: *
-# Block server/system files
 Disallow: /cgi-bin/
 Disallow: /tmp/
 Disallow: /private/
 Disallow: /admin/
 
-# Point search engines to your sitemap (important for SEO)
+# Explicitly allow Google AdsBot (desktop and mobile)
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# Explicitly allow Googlebot (helps with AdsBot checks)
+User-agent: Googlebot
+Allow: /
+
+# Sitemap for all search engines
 Sitemap: https://habsco.com.ng/sitemap.xml
